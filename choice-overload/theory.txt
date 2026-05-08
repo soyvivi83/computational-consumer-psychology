@@ -1,0 +1,123 @@
+CHOICE OVERLOAD & DUAL-PROCESS THEORY
+Theoretical Background
+=========================================================
+
+1. DUAL-PROCESS THEORY (Kahneman, 2011)
+-----------------------------------------
+Dual-Process Theory proposes that human cognition operates through two
+fundamentally distinct systems:
+
+SYSTEM 1 — Fast Thinking
+  Automatic, fast, unconscious. Requires no deliberate effort.
+  Operates via heuristics (mental shortcuts).
+  Primary source of cognitive biases.
+  Examples: recognising a face, feeling uneasy about a price that
+  seems too high, grabbing the first product on the page.
+
+SYSTEM 2 — Slow Thinking
+  Deliberate, slow, conscious. Requires sustained effort and attention.
+  Follows logical rules. Limited by working memory capacity.
+  Can correct System 1 errors — but only when activated.
+  Examples: comparing 5 products on 4 attributes, calculating value
+  for money, reading the small print.
+
+Key insight: System 2 is lazy by design. The brain prefers to delegate
+to System 1 whenever possible. Any factor that increases cognitive load
+(fatigue, time pressure, too many options) shifts the balance toward S1.
+
+
+2. CHOICE OVERLOAD (Iyengar & Lepper, 2000)
+---------------------------------------------
+The landmark "jam study" demonstrated that:
+  - A display of 24 jams attracted more attention than 6 jams
+  - But consumers were 10x MORE LIKELY TO PURCHASE from the 6-jam display
+  - More choice → more browsing, less buying
+
+The dual-process mechanism:
+  Large assortments → high cognitive load → S2 overwhelmed → S1 takes
+  over (heuristics) or consumer gives up (abandonment)
+
+The paradox: more options should theoretically help consumers find
+their ideal product. But beyond a threshold, the cost of processing
+options (System 2 effort) exceeds the benefit of having more choice.
+
+
+3. NEED FOR COGNITION (Cacioppo & Petty, 1982)
+------------------------------------------------
+NFC is a stable individual trait measuring the tendency to engage in
+and enjoy effortful thinking. High NFC individuals are more likely to:
+  - Activate System 2 spontaneously
+  - Resist cognitive load effects
+  - Make higher-quality decisions under complexity
+
+In this model: NFC ~ N(0.5, 0.2), truncated to [0, 1]
+  NFC > 0.6 → Reflective consumer
+  NFC 0.4–0.6 → Average consumer
+  NFC < 0.4 → Intuitive consumer
+
+
+4. WEBER-FECHNER LAW (applied to cognitive load)
+-------------------------------------------------
+The perception of stimulus intensity grows logarithmically, not linearly.
+Applied here: the perceived difficulty of an assortment grows as:
+
+    cognitive_load = log(n_products) / log(100)
+
+Going from 6 to 12 products feels much harder than going from 42 to 48.
+This is why the overload effect is non-linear — it hits hard in the
+6→12→24 range and plateaus at very large assortments.
+
+
+5. S1 HEURISTICS IN E-COMMERCE
+--------------------------------
+When System 1 takes over in online shopping, consumers rely on:
+
+  CHEAPEST: minimise economic risk. Common in commodity categories
+    where quality differences are hard to perceive (e.g., batteries,
+    cables, generic groceries).
+
+  TOP RATED: social proof heuristic. Delegate the decision to the
+    crowd. Dominant when quality is uncertain and reviews are visible.
+
+  FIRST SEEN: position heuristic. Choose whatever is most salient.
+    Explains why Amazon's top position converts dramatically better
+    than positions 5–10, regardless of product quality.
+
+Key finding of this model: S1 heuristics produce products with
+significantly lower ratings than S2 rational evaluation (3.5 vs 4.7
+average rating). The quality gap widens with assortment size.
+
+
+6. MANAGERIAL IMPLICATIONS
+---------------------------
+The model suggests three design interventions:
+
+  1. ASSORTMENT REDUCTION: Keep default views to 12 products.
+     Let consumers opt into larger catalogues. The sweet spot
+     between discovery and overload appears around 12 items.
+
+  2. SMART DEFAULTS: For intuitive consumers (high overload risk),
+     pre-select a "best value" or "most popular" option. Act as an
+     external System 2.
+
+  3. PROGRESSIVE FILTERING: Guide consumers through attributes
+     step-by-step rather than showing all options simultaneously.
+     Reduces cognitive load without reducing actual choice.
+
+
+REFERENCES
+----------
+Cacioppo, J. T., & Petty, R. E. (1982). The need for cognition.
+  Journal of Personality and Social Psychology, 42(1), 116-131.
+
+Frederick, S. (2005). Cognitive reflection and decision making.
+  Journal of Economic Perspectives, 19(4), 25-42.
+
+Iyengar, S. S., & Lepper, M. R. (2000). When choice is demotivating:
+  Can one desire too much of a good thing?
+  Journal of Personality and Social Psychology, 79(6), 995-1006.
+
+Kahneman, D. (2011). Thinking, Fast and Slow. Farrar, Straus and Giroux.
+
+Schwartz, B. (2004). The Paradox of Choice: Why More Is Less.
+  Harper Collins.
